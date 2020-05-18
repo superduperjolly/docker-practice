@@ -9,7 +9,7 @@ make build
 ```
 Then to run the container, run:
 ```
-docker run -it --rm -p 5000:5000 docker-practice:latest
+make run
 ```
 
 You can access the web app via http://0.0.0.0:5000/
